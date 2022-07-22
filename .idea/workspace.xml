@@ -25,40 +25,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ListNodeTest">
-    <configuration name="ListNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.Main" />
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.listNode.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.leetcode.listNodeTest" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.listNode.ListNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListNodeTest.mergeTwoListsWhenSecondNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ListNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.listNode.*" />
+          <option name="PATTERN" value="com.leetcode.solution21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.listNodeTest" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.listNode.ListNodeTest" />
-      <option name="METHOD_NAME" value="mergeTwoListsWhenSecondNull" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solution21.ListNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,12 +79,12 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.listNode.*" />
+          <option name="PATTERN" value="com.leetcode.solution21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.listNodeTest" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.listNode.ListNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solution21.ListNodeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,12 +96,12 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.listNode.*" />
+          <option name="PATTERN" value="com.leetcode.solution21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.leetcode.listNodeTest" />
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.listNode.ListNodeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.solution21.ListNodeTest" />
       <option name="METHOD_NAME" value="mergeTwoListsWhenSecondNull" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ListNodeTest" />
         <item itemvalue="TestNG.ListNodeTest" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="TestNG.ListNodeTest.mergeTwoListsWhenSecondNull" />
-        <item itemvalue="JUnit.ListNodeTest.mergeTwoListsWhenSecondNull" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +130,20 @@
       <updated>1657787553819</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="cost.length" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
