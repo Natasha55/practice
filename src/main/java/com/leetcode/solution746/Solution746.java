@@ -1,5 +1,7 @@
 package com.leetcode.solution746;
 
+import java.util.Arrays;
+
 /*746. Min Cost Climbing Stairs
 https://leetcode.com/problems/min-cost-climbing-stairs/
         You are given an integer array cost where cost[i] is the cost of ith step on a staircase.
@@ -9,32 +11,20 @@ https://leetcode.com/problems/min-cost-climbing-stairs/
 */
 public class Solution746 {
     public int minCostClimbingStairs(int... cost) {
-        int[] a = cost;
-        int min;
+        int n = cost.length;
+        int min = 0;
         int countSum = 0;
-        for (int i = 0; i <= cost.length - 2; i++) {
-            if (i == 0) {
-                if (a[i] < a[i + 1]) {
-                    min = a[i];
-                } else {
-                    min = a[i + 1];
-                }
-            } else {
-                if (a[i] == a[i + 1]) {
-                    min = a[i + 1];
-                }
-                if (a[i] < a[i + 1]) {
-                    min = a[i];
-                } else {
-                    min = a[i + 1];
-                    i++;
-                }
-            }
 
+        while (cost.length > 0) {
+            min = Math.min(cost[cost.length - 2], cost[cost.length - 1]);
+            cost = Arrays.copyOf(cost, cost.length - 1);
+            System.out.println(Arrays.toString(cost));
             System.out.println(min);
-            countSum = countSum + min;
-            System.out.println("whaat " + countSum);
+//            countSum = countSum + min;
+            //      minCostClimbingStairs(cost);
         }
+        countSum = countSum + min;
+        // minCostClimbingStairs(cost);
         return countSum;
     }
 }
