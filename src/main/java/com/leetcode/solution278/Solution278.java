@@ -10,24 +10,31 @@ https://leetcode.com/problems/first-bad-version/description/
 
     You are given an API bool isBadVersion(version) which returns whether version is bad.
     Implement a function to find the first bad version. You should minimize the number of calls to the API
+
+///* The isBadVersion API is defined in the parent class VersionControl.
+//      boolean isBadVersion(int version);
 */
 
+public class Solution278 {
+    boolean isBadVersion(int version) {
+        return false;
+    }
 
-//public class Solution278 extends VersionControl {
-//
-///* The isBadVersion API is defined in the parent class VersionControl.
-//      boolean isBadVersion(int version); */
-//
-//        public int k;
-//        int find = 0;
-//
-//        public int firstBadVersion(int n) {
-//            for (int i=0; i<n; i++) {
-//                if (isBadVersion(i) && find==0) {
-//                    k = i;
-//                    find = 1;
-//                }
-//            }
-//            return k;
-//        }
-//    }
+    public int firstBadVersion(int n) {
+        int find = 1;
+        int min = 1;
+        int max = n;
+
+        while (min <= max) {
+            int mid = min + (max - min) / 2;
+
+            if (isBadVersion(mid)) {
+                find = mid;
+                max = mid - 1;
+            } else {
+                min = mid + 1;
+            }
+        }
+        return find;
+    }
+}
