@@ -9,7 +9,7 @@ https://leetcode.com/problems/pascals-triangle-ii/
         In Pascal's triangle, each number is the sum of the two numbers directly above it.
  */
 
-public class Solution119 {
+public class Solution119arraylist {
     public List<Integer> getRow(int rowIndex) {
         int index = 1;
 
