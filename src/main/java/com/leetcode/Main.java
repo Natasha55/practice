@@ -1,14 +1,8 @@
 package com.leetcode;
 
-import com.leetcode.solution322.Solution322;
-import com.leetcode.solution583.Solution583;
-
 public class Main {
     public static void main(String[] args) {
 
-
-        new Solution583().minDistance("sea", "eat");
-        new Solution583().minDistance("leetcode", "etco");
 //        int[] b = {1, 2, 5};
 //        new Solution322().coinChange(b, 11);
 
@@ -29,8 +23,3 @@ public class Main {
 
     }
 }
-
-
-
-
-
