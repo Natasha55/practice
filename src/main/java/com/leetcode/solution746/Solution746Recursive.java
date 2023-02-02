@@ -22,6 +22,13 @@ public class Solution746Recursive {
                 minCostClimbingStairsR(n - 1, cost)) + cost[n];
     }
 
-    // Status: Time Limit Exceeded
+    public static void main(String[] args) {
 
+        new Solution746Recursive().minCostClimbingStairs(10, 15, 20);
+        new Solution746Recursive().minCostClimbingStairs(1, 100, 1, 1, 1, 100, 1, 1, 100, 1);
+        new Solution746Iteration().minCostClimbingStairs(10, 15, 20);
+        new Solution746Iteration().minCostClimbingStairs(1, 100, 1, 1, 1, 100, 1, 1, 100, 1);
+
+        // Status: Time Limit Exceeded
+    }
 }

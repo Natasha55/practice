@@ -31,5 +31,12 @@ public class Solution119arraylist {
         }
         return list;
     }
+
+    public static void main(String[] args) {
+
+        new Solution119array().getRow(0);
+        new Solution119array().getRow(1);
+        new Solution119array().getRow(3);
+    }
 }
 
