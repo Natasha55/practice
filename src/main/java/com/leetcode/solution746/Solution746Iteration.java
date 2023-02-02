@@ -16,4 +16,11 @@ public class Solution746Iteration {
 
         return Math.min(pays[n - 1], pays[n - 2]);
     }
+
+    public static void main(String[] args) {
+        new Solution746Recursive().minCostClimbingStairs(10, 15, 20);
+        new Solution746Recursive().minCostClimbingStairs(1, 100, 1, 1, 1, 100, 1, 1, 100, 1);
+        new Solution746Iteration().minCostClimbingStairs(10, 15, 20);
+        new Solution746Iteration().minCostClimbingStairs(1, 100, 1, 1, 1, 100, 1, 1, 100, 1);
+    }
 }

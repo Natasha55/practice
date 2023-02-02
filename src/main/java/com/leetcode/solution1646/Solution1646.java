@@ -32,5 +32,14 @@ public class Solution1646 {
         Arrays.sort(nums);
         return nums[n];
     }
+
+    public static void main(String[] args) {
+
+        new Solution1646().getMaximumGenerated(0);
+        new Solution1646().getMaximumGenerated(1);
+        new Solution1646().getMaximumGenerated(2);
+        new Solution1646().getMaximumGenerated(3);
+        new Solution1646().getMaximumGenerated(7);
+    }
 }
 

@@ -25,4 +25,11 @@ public class Solution119array {
         List<Integer> list = Arrays.asList(array);
         return list;
     }
+
+    public static void main(String[] args) {
+
+        new Solution119array().getRow(0);
+        new Solution119array().getRow(1);
+        new Solution119array().getRow(3);
+    }
 }
