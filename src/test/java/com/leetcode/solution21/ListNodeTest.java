@@ -1,6 +1,6 @@
 package com.leetcode.solution21;
 
-import com.leetcode.Main;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
